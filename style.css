@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.main{
+    text-align: center;
+    margin: 70px;
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+    text-align: left;
+}
+
+.card1{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card2{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    color: hsl(204, 43%, 93%);
+}
+
+.card3{
+    background-color: hsl(179, 70%, 44%);
+    padding-left: 10px;
+    color: hsl(204, 43%, 93%);
+    border-radius: 0 0 5px 5px;
+    font-size: 18px;
+}
+
+.head{
+    padding: 10px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.join{
+    color: hsl(179, 62%, 43%);
+}
+
+.hassle{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(71, 73%, 54%);
+}
+
+.tutorial{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: hsl(218, 22%, 67%);
+}
+
+.month{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+
+.number{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.per{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.access{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-left: 10px;
+    padding: 16px 170px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px -10px black ;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.us{
+    padding: 30px 0 20px 10px;
+    font-size: 22px;
+    font-weight: bold; 
+}
+
+.text{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.hassle1{
+    display: none;
+}
+
+.tutorial1{
+    display: none;
+}
+
+@media screen and (min-width:700px) {
+
+    .hassle{
+        display: none;
+    }
+
+    .tutorial{
+        display: none;
+    }
+
+    .hassle1{
+        display: block;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        color: hsl(71, 73%, 54%);        
+    }
+
+    .tutorial1{
+        display: block;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        color: hsl(218, 22%, 67%);
+    }
+
+    .all{
+        display: flex;
+    }
+
+    .card1{
+        margin-right: 283px;
+        border-radius: 5px 5px 0 0;
+        padding-left: 40px;
+    }
+
+    .card2{
+        border-radius: 0 0 0 5px;
+        padding-left: 40px;
+    }
+
+    .card3{
+        padding-right: 178px;
+        padding-left: 40px;
+        border-radius: 0 0 5px 0;
+    }
+    
+    .container{
+        margin: 80px 0 0 300px;
+    }
+}
